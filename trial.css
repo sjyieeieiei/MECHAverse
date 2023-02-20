@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*background-image;
+    background-size: ;
+    background-attachment: fixed;*/
+}
+
+.navbar{
+    height: 67px;
+    width: 100%;
+    padding: 14px 30px;
+    background-color: black;
+    position: relative;
+    font: white;
+}
+
+.navbar .nav-header{
+    display: inline;
+}
+
+.navbar .nav-header .nav-logo{
+    display: inline-block;
+    margin-top: -7px;
+}
+
+.navbar .nav-links{
+    display: inline;
+    float: right;
+    font-size: 18px;
+}
+
+.navbar .nav-link a{
+    padding: 10px 12px;
+    text-decoration: none;
+    font-weight: 550;
+    color: white;
+}
+
+.navbar .nav-links a:hover{
+    background-color: blue;
+}
